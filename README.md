@@ -108,11 +108,11 @@ We welcome contributions! To contribute:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Jenishajustin/Elevate_EDA/blob/main/LICENSE) file for details.
 
 ## Contact
 
 If you have any questions or suggestions, feel free to reach out at:
 
-- **Email**: jjenisha3005@gmail.com
-- **GitHub**: [Jenishajustin](https://github.com/Jenishajustin)
+- **Email**: jjenisha950@gmail.com
+- **GitHub**: [Jenishajustin][(https://github.com/Jenishajustin)]
