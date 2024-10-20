@@ -88,7 +88,19 @@ Here's an example of how to use Elevate EDA on a sample dataset:
 ![Screenshot 2024-10-20 175718](https://github.com/user-attachments/assets/6ce76283-a050-44c9-a6d1-7765604c5d98)
 
 ### Correlation Matrix
-![Correlation Matrix](screenshots/correlation_matrix.png)
+![Screenshot 2024-10-20 181336](https://github.com/user-attachments/assets/7a2ee25b-d270-4e8c-8c8b-ac7c2f2a81b0)
+
+### K-Means Clustering
+![Screenshot 2024-10-20 181422](https://github.com/user-attachments/assets/7526634f-9830-4ad6-9396-a948e5e4e8d4)
+
+### Cluster Summary
+![Screenshot 2024-10-20 181439](https://github.com/user-attachments/assets/7efd0914-11e3-45d4-adef-719e0bd26d98)
+
+### Data Profile
+![Screenshot 2024-10-20 181540](https://github.com/user-attachments/assets/a1c844c0-1847-485f-91ca-6c2d4835d14f)
+
+### Download Filtered Data
+![Screenshot 2024-10-20 181628](https://github.com/user-attachments/assets/6304c2cd-fc39-4a07-a8d9-d1f4abc0e59c)
 
 ## Future Enhancements
 
