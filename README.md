@@ -57,7 +57,7 @@ To get started with Elevate EDA, follow these steps:
    Open a browser and go to `http://localhost:8501/`.
 
 ## Wanna Access Elevate EDA?
-Have fun with my EDA tool - https://elevate-eda-360.streamlit.app/
+Have fun with my EDA tool 👉 - https://elevate-eda-360.streamlit.app/
 ## Usage
 
 1. Upload your dataset (CSV format).
