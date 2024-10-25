@@ -44,7 +44,7 @@ To get started with Elevate EDA, follow these steps:
 4. **Install the required dependencies:**
 
     ```bash
-    pip install -r Requirements.txt
+    pip install -r requirements.txt
     ```
 
 5. **Run the Streamlit application:**
