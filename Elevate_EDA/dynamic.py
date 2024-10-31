@@ -109,7 +109,7 @@ def main():
             elif chart_type == "Line":
                 fig = px.line(df_sample, x=x_axis, y=y_axis, title=f"Line Chart: {x_axis} vs {y_axis}")
             elif chart_type == "Histogram":
-                fig = px.histogram(df_sample, x=y_axis, title=f"Histogram: {x_axis}")
+                fig = px.histogram(df_sample, x=x_axis, title=f"Histogram: {x_axis}")
             elif chart_type == "Box":
                 fig = px.box(df_sample, x=x_axis, y=y_axis, title=f"Box Plot: {x_axis} vs {y_axis}")
             elif chart_type == "Violin":
