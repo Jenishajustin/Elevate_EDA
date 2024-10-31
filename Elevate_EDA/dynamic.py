@@ -91,7 +91,7 @@ def main():
         # Column selection for analysis
         st.subheader("Select columns for analysis")
         x_axis = st.selectbox("Select X-axis", df.columns)
-        y_axis = st.selectbox("Select Y-axis", numeric_cols)
+        y_axis = st.selectbox("Select Y-axis", df.columns)
 
         # Efficient data sampling for visualization
         sample_size = min(10000, df.shape[0])
