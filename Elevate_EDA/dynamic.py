@@ -216,9 +216,11 @@ def main():
                     st.error(f"Error in clustering: {str(e)}")
 
         # Data Profiling
+        # Display data profiling
         if st.checkbox("Generate Data Profile"):
             st.subheader("Data Profiling")
             try:
+                # Create a DataFrame for profiling
                 profile_df = pd.DataFrame({
                     'Column': df.columns,
                     'Non-Null Count': df.count(),
@@ -226,6 +228,15 @@ def main():
                     'Unique Values': [df[col].nunique() for col in df.columns]
                 })
                 st.write(profile_df)
+
+                # Dropdown to select a column
+                selected_column = st.selectbox("Select a column to view unique values:", df.columns)
+
+                # Display unique values of the selected column
+                unique_values = df[selected_column].unique()
+                st.write(f"Unique values in '{selected_column}':")
+                st.write(unique_values)
+
             except Exception as e:
                 st.error(f"Error in data profiling: {str(e)}")
 
