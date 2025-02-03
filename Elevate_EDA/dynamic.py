@@ -45,7 +45,7 @@ def main():
     # Load and display the logo in the sidebar
     logo_path = "logo.png"  # Specify the path to your logo
     
-    st.sidebar.image(logo_path, use_column_width=True)
+    st.sidebar.image(logo_path, use_container_width=True)
     
     st.title("Robust EDA Tool for Large Datasets")
     st.markdown('<style>div.block-container{padding-top:2rem;}</style>', unsafe_allow_html=True)
